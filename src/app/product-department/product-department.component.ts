@@ -3,8 +3,7 @@ import { Product } from '../product.module';
 
 @Component({
   selector: 'product-department',
-  template:"./product-department.html",
-  styles: []
+  templateUrl:"./product-department.component.html"
 })
 export class ProductDepartmentComponent implements OnInit {
 

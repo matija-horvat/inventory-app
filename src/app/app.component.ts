@@ -3,14 +3,13 @@ import { Product } from './product.module';
 
 @Component({
   selector: 'inventory-app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  product : Product[];
+  products : Product[];
 
   constructor(){
-    this.product =[new Product('MYSHOES', 
+    this.products =[new Product('MYSHOES', 
                               'Black Running Shoes', 
                               '/assets/images/products/black-shoes.jpg', 
                               ['Men','Shoes','Running Shoes'], 

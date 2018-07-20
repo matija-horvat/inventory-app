@@ -1,0 +1,11 @@
+<div class="">
+  <product-row
+    *ngFor="let p of productList"
+    [product]="p"
+    (click)='clicked(p)'
+    [class.selected]="isSelected(p)"
+  >
+  </product-row>
+
+
+</div>
